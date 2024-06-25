@@ -36,3 +36,4 @@ The Jupyter notebooks are standalone and can be used with any Julia version 10+.
 
 * For Part 2c, one should download the notebook **Part 2 Chapter 8** along with the **Part2b** submodule
 
+![image](https://github.com/Implementing-Spectral-Methods/Implementing-Spectral-Methods/assets/34816295/dfa53669-7c54-43c9-bdbb-d090f84017f9)
