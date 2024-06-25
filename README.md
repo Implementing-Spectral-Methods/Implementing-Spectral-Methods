@@ -1,4 +1,4 @@
-**Implementing Spectral Methods for Partial Differential Equations in Julia**
+# **Implementing Spectral Methods for Partial Differential Equations in Julia**
 ----------------------------
 
 written by Ernesto Barraza-Valdez with the help of Dr. David Kopriva
@@ -20,3 +20,5 @@ It is split up into Part I, Part IIa, PartIIb, PartIIc, and an extra Part III. A
 * **Part 2c:** Goes through Chapters 8 in the textbook, Spectral Elements Method. The Spectral Element Nodal Continuous Galerkin and Nodal Discontinuous Galerkin Methods are reviewed in 1D
 
 * **Part III:** TBD soon
+
+
