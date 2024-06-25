@@ -21,4 +21,18 @@ It is split up into Part I, Part IIa, PartIIb, PartIIc, and an extra Part III. A
 
 * **Part III:** TBD soon
 
+----------------------
+
+# Usage
+
+--------------------
+The Jupyter notebooks are standalone and can be used with any Julia version 10+. 
+
+* For Part 1 all package requirements are in the notebook.
+
+* For Part 2a, one should download the notebook **Part 2 Chapter 4** along with the **Part1** submodule
+
+* For Part 2b, one should download the notebook **Part 2 Chapter 5** along with the **Part2a** submodule
+
+* For Part 2c, one should download the notebook **Part 2 Chapter 8** along with the **Part2b** submodule
 
