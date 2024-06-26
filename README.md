@@ -55,31 +55,43 @@ https://julialang.org/downloads/
 
 ## Jupyter Lab with `IJulia.jl`
 
-*  To get Jupyter Lab (and access to Jupyter Notebooks via Jupyter Lab), `IJulia.jl` needs to be added to Julia. Follow the instructions of the following link:
+### Approach 1:
 
-  https://julialang.github.io/IJulia.jl/stable/manual/installation/
+*  To get Jupyter Lab (and access to Jupyter Notebooks via Jupyter Lab), `IJulia.jl` needs to be added to Julia. Follow the instructions of the following link:  https://julialang.github.io/IJulia.jl/stable/manual/installation/
 
-*  **Recommendation:** Julia is great for fast computation but it's still lacking in sophisticated plotting. Having Python to visualize data is still much faster and easier. Thus, the recommendation is to install Anaconda to obtain Python and Jupyter Lab. To install Anaconda (Miniconda is recommended) follow the instructions here: 
+*  Start Julia
+*  Type `]` to get into package mode. Then:  `add IJulia`\
+  After `IJulia` is installed, use the `backspace` key to get out of package mode. Then type:\
+  `using IJulia`\
+  If it's the first time, it will compile and build `IJulia`\
+  After this use the command:\
+  `installkernel("Julia", "--depwarn=no")`\
+  This will install Julia for use in Jupyter Lab and notebooks.\
+  After the `IJulia` kernel is installed, you can open a notebook or Jupyter Lab. I recommend using Jupyter Lab.
+*  To open Jupyter Lab, type into Julia the following: `jupyterlab()`\
+*  Jupyter Lab should open in a browser or a link should be outputted that you can paste in your browser.\
+  If you are using SSH you will need to add a port and host. You may need to change the `IJulia ` configurations and settings
 
+### Approach 2: Recommended
+
+Julia is great for fast computation but it's still lacking in sophisticated plotting. Having Python to visualize data is still much faster and easier. Thus, the recommendation is to install Anaconda to obtain Python and Jupyter Lab. 
+
+*  Install Anaconda (Miniconda is recommended) follow the instructions here:\
   https://docs.anaconda.com/miniconda/miniconda-install/
 
-*  Once conda is installed you can install Jupyter lab following the links below: 
-
-  https://jupyterlab.readthedocs.io/en/stable/getting_started/installation.html
-
-  Which basically shows: 
-
+*  Once conda is installed you can install Jupyter lab following the links below:\
+  https://jupyterlab.readthedocs.io/en/stable/getting_started/installation.html \
+  Which basically shows: \
   `conda install -c conda-forge jupyterlab`
 
-*  Once conda and jupyter lab are installed you can start Julia. In the Julia, (following the `IJulia.jl` link) type:
-  `]` to get into package mode. Then:
-  `add IJulia`
-  After `IJulia` is installed, use the `backspace` key to get out of package mode. Then type:
-  `using IJulia`
-  If it's the first time, it will compile and build `IJulia`
-  After this use the command:
-  `installkernel("Julia", "--depwarn=no")`
-  This will install Julia for use in Jupyter Lab and notebooks.
-  After the `IJulia` kernel is installed, you can exit Julia with `exit()`.
-
+*  Once conda and jupyter lab are installed you can start Julia. In the Julia, (following the `IJulia.jl` link) type:\
+  `]` to get into package mode. Then:\
+  `add IJulia`\
+  After `IJulia` is installed, use the `backspace` key to get out of package mode. Then type:\
+  `using IJulia`\
+  If it's the first time, it will compile and build `IJulia`\
+  After this use the command:\
+  `installkernel("Julia", "--depwarn=no")`\
+  This will install Julia for use in Jupyter Lab and notebooks.\
+  After the `IJulia` kernel is installed, you can exit Julia with `exit()`.\
 *  With conda installed, you can now open Jupyter Lab using: `Jupyter Lab` command. Depending on your system configurations, a browser window will open with Jupyter Lab or you will need to add some configurations for SSH. 
