@@ -21,6 +21,11 @@ It is split up into Part I, Part IIa, PartIIb, PartIIc, and an extra Part III. A
 
 * **Part III:** TBD soon
 
+---------------------
+
+![image](https://github.com/Implementing-Spectral-Methods/Implementing-Spectral-Methods/assets/34816295/dfa53669-7c54-43c9-bdbb-d090f84017f9)
+
+
 ----------------------
 
 # Usage
@@ -36,6 +41,39 @@ The Jupyter notebooks are standalone and can be used with any Julia version 10+.
 
 * For Part 2c, one should download the notebook **Part 2 Chapter 8** along with the **Part2b** submodule
 
----------------------
+## Installing Julia
 
-![image](https://github.com/Implementing-Spectral-Methods/Implementing-Spectral-Methods/assets/34816295/dfa53669-7c54-43c9-bdbb-d090f84017f9)
+If you're new to Julia, please follow the instructions for installation in the following link:
+
+https://julialang.org/downloads/
+
+## Jupyter Lab with `IJulia.jl`
+
+*  To get Jupyter Lab (and access to Jupyter Notebooks via Jupyter Lab), `IJulia.jl` needs to be added to Julia. Follow the instructions of the following link:
+
+  https://julialang.github.io/IJulia.jl/stable/manual/installation/
+
+*  **Recommendation:** Julia is great for fast computation but it's still lacking in sophisticated plotting. Having Python to visualize data is still much faster and easier. Thus, the recommendation is to install Anaconda to obtain Python and Jupyter Lab. To install Anaconda (Miniconda is recommended) follow the instructions here: 
+
+  https://docs.anaconda.com/miniconda/miniconda-install/
+
+*  Once conda is installed you can install Jupyter lab following the links below: 
+
+  https://jupyterlab.readthedocs.io/en/stable/getting_started/installation.html
+
+  Which basically shows: 
+
+  `conda install -c conda-forge jupyterlab`
+
+*  Once conda and jupyter lab are installed you can start Julia. In the Julia, (following the `IJulia.jl` link) type:
+  `]` to get into package mode. Then:
+  `add IJulia`
+  After `IJulia` is installed, use the `backspace` key to get out of package mode. Then type:
+  `using IJulia`
+  If it's the first time, it will compile and build `IJulia`
+  After this use the command:
+  `installkernel("Julia", "--depwarn=no")`
+  This will install Julia for use in Jupyter Lab and notebooks.
+  After the `IJulia` kernel is installed, you can exit Julia with `exit()`.
+
+*  With conda installed, you can now open Jupyter Lab using: `Jupyter Lab` command. Depending on your system configurations, a browser window will open with Jupyter Lab or you will need to add some configurations for SSH. 
