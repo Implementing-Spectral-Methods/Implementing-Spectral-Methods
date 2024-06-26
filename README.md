@@ -1,7 +1,13 @@
 # **Implementing Spectral Methods for Partial Differential Equations in Julia**
 ----------------------------
 
-written by Ernesto Barraza-Valdez with the help of Dr. David Kopriva
+written by Ernesto Barraza-Valdez with the help of Dr. David Kopriva.
+
+I would like to give a huge thank you to Dr. Kopriva for giving the time, advice, and mentorship to complete these tutorials so that others can more easily access these versatile computational methods. Without Dr. Kopriva's generous guidance, I wouldn't have made it past Chapter 1. 
+
+In the spirit of his compassionate help, please feel free to email or submit issues/discussions/comments.
+
+- Kopriva, D. A. (2009). Implementing spectral methods for partial differential equations: Algorithms for scientists and engineers. Springer Science & Business Media.
 
 -----------------------------
 
