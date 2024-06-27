@@ -25,7 +25,7 @@ It is split up into Part I, Part IIa, PartIIb, PartIIc, and an extra Part III. A
 
 * **Part 2c:** Goes through Chapters 8 in the textbook, Spectral Elements Method. The Spectral Element Nodal Continuous Galerkin and Nodal Discontinuous Galerkin Methods are reviewed in 1D
 
-* **Part 3:** More 1D examples on the Nodal Discontinuous Galerkin Spectral Element Method. The Euler-Acoustic Equations and Maxwell's Electromagnetic equations for transverse waves are examined. 
+* **Part 3:** More 1D examples on the Nodal Discontinuous Galerkin Spectral Element Method. The Euler-Acoustic Equations and Maxwell's Electromagnetic equations for transverse waves are examined. Additionally, a look on how to implement source functions throught the **External State Function** or through Source Functions in the time derivative (Ampere's law current density source)
 
 ---------------------
 
