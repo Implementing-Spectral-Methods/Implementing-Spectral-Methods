@@ -27,6 +27,8 @@ It is split up into Part I, Part IIa, PartIIb, PartIIc, and an extra Part III. A
 
 * **Part 3:** More 1D examples on the Nodal Discontinuous Galerkin Spectral Element Method. The Euler-Acoustic Equations and Maxwell's Electromagnetic equations for transverse waves are examined. Additionally, stationary domain discontinuities are examined such as density discontinuity or electric permitivity discontinuities. Last, a look on how to implement source functions through the **External State Function** or through Source Functions in the time derivative (Ampere's law current density source)
 
+* **Part 4:** More 1D examples on the Nodal Discontinuous Galerkin Spectral Element Method. The Euler Gas Equations are examined with moving discontinuities and shocks. The **Higher Order Hybrid Blending** method for global DGSEM and subcell Finite volume is examined. Using this method allows for discontinuities (shocks) to move within elements. Additionally, the **Entropy Conserving** and **Entropy Stable** flux are introduced. Last, the **Strong Stability Preserving Runge-Kutta** time integration method is introduced to tackle hyperbolic conservation laws with larger time steps. 
+
 ---------------------
 
 ![image](https://github.com/Implementing-Spectral-Methods/Implementing-Spectral-Methods/assets/34816295/dfa53669-7c54-43c9-bdbb-d090f84017f9)
