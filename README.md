@@ -13,7 +13,7 @@ In the spirit of his compassionate help, please feel free to email or submit iss
 
 This repository uses Julia to follow Dr. David Kopriva's book: *Implementing Spectral Methods for Partial Differential Equations*
 
-Jupyter notebooks (via Jupyater Lab) are provided for each along with a library that one can use as one goes deeper into the lessons. 
+Jupyter notebooks (via Jupyater Lab) are provided for each along with a library that one can use as one goes deeper into the lessons. The jupyter notebooks can be directly viewed on this github repository by clicking on them above. 
 
 It is split up into Part I, Part IIa, PartIIb, PartIIc, and an extra Part III. All parts are done in 1D for learning purposes. 
 
